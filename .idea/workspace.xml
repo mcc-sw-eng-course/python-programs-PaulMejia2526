@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150abf12-1d33-43d8-a595-5623d3876136" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/L4/myStatistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/L4/myStatistics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L4/unittestStatistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/L4/unittestStatistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/DecimalToRoman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/UserHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/myPowerList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/test_users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/unittestRomanNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/unittestUserDirectory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-programs-INataly.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-programs-INataly.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +19,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L4/unittestStatistics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+            <state relative-caret-position="557">
+              <caret line="70" column="32" selection-end-line="93" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L4/unittestUserDirectory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -26,20 +45,71 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L4/myStatistics.py">
+        <entry file="file://$PROJECT_DIR$/L2/UserHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="92">
+              <caret line="42" selection-start-line="42" selection-end-line="58" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L4/test_users.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L4/UserHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="27" column="21" selection-start-line="27" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L4/User.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L4/myPowerList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
       <find>median</find>
+      <find>myPowerList</find>
+      <find>dumm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -50,14 +120,20 @@
       <list>
         <option value="$PROJECT_DIR$/L4/myStatistics.py" />
         <option value="$PROJECT_DIR$/L4/unittestStatistics.py" />
+        <option value="$PROJECT_DIR$/L4/DecimalToRoman.py" />
+        <option value="$PROJECT_DIR$/L4/unittestRomanNumbers.py" />
+        <option value="$PROJECT_DIR$/L4/User.py" />
+        <option value="$PROJECT_DIR$/L4/UserHandler.py" />
+        <option value="$PROJECT_DIR$/L4/test_users.txt" />
+        <option value="$PROJECT_DIR$/L4/myPowerList.py" />
+        <option value="$PROJECT_DIR$/L4/unittestUserDirectory.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -75,18 +151,30 @@
             <path>
               <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
+              <item name="L1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
+              <item name="L2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
               <item name="L4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
+              <item name="L4" type="462c0819:PsiDirectoryNode" />
+              <item name="Actividad" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
+              <item name="L4" type="462c0819:PsiDirectoryNode" />
               <item name="Actividad" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -95,8 +183,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/L4" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="L4" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="L4" />
+        <option name="myAddContentRoots" value="false" />
+        <option name="myAddSourceRoots" value="false" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\inalonso\Desktop\ITESM\2do semestre\Analisis y diseno software\python-programs-INataly\L4" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,22 +213,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.unittestStatistics">
-    <configuration name="myStatistics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for unittestUserDirectory">
+    <configuration name="unittestRomanNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="L4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/L4/myStatistics.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/L4/unittestRomanNumbers.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -136,6 +236,9 @@
       <module name="L4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -150,7 +253,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unittestStatistics.TestStatistics.test_getStandarDeviation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for unittestUserDirectory" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="L4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,12 +263,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestStatistics.TestStatistics.test_getStandarDeviation&quot;" />
+      <option name="_new_target" value="&quot;unittestUserDirectory&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in L4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="python-programs-INataly" />
+    <configuration name="Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="L4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -174,17 +277,59 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/L4&quot;" />
+      <option name="_new_target" value="&quot;unittestUserDirectory.TestUserHandler.test_searchByUser&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="L4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in unittestRomanNumbers.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="L4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/L4/unittestRomanNumbers.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in unittestUserDirectory.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="L4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/L4/unittestUserDirectory.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.myStatistics" />
-        <item itemvalue="Python tests.Unittests for unittestStatistics.TestStatistics.test_getStandarDeviation" />
-        <item itemvalue="Python.unittestStatistics" />
-        <item itemvalue="Python.unittestStatistics" />
-        <item itemvalue="Python tests.Unittests in L4" />
+        <item itemvalue="Python tests.Unittests for unittestUserDirectory" />
+        <item itemvalue="Python tests.Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList" />
+        <item itemvalue="Python tests.Unittests in unittestUserDirectory.py" />
+        <item itemvalue="Python.unittestRomanNumbers" />
+        <item itemvalue="Python tests.Unittests in unittestRomanNumbers.py" />
       </list>
     </recent_temporary>
   </component>
@@ -202,23 +347,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_L4 - 2019.02.12 at 00h 36m 41s.xml">
-      <configuration name="Unittests in L4" configurationId="tests" />
+    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 41m 05s.xml">
+      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestStatistics_TestStatistics_test_getStandarDeviation - 2019.02.12 at 00h 42m 58s.xml">
-      <configuration name="Unittests for unittestStatistics.TestStatistics.test_getStandarDeviation" configurationId="tests" />
+    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 41m 49s.xml">
+      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestStatistics_TestStatistics_test_getStandarDeviation - 2019.02.12 at 00h 46m 00s.xml">
-      <configuration name="Unittests for unittestStatistics.TestStatistics.test_getStandarDeviation" configurationId="tests" />
+    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 41m 54s.xml">
+      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestStatistics_TestStatistics_test_getStandarDeviation - 2019.02.12 at 00h 53m 33s.xml">
-      <configuration name="Unittests for unittestStatistics.TestStatistics.test_getStandarDeviation" configurationId="tests" />
+    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 42m 50s.xml">
+      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestStatistics_TestStatistics_test_getStandarDeviation - 2019.02.12 at 00h 53m 43s.xml">
-      <configuration name="Unittests for unittestStatistics.TestStatistics.test_getStandarDeviation" configurationId="tests" />
+    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 43m 17s.xml">
+      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestStatistics_TestStatistics_test_getStandarDeviation - 2019.02.12 at 00h 53m 57s.xml">
-      <configuration name="Unittests for unittestStatistics.TestStatistics.test_getStandarDeviation" configurationId="tests" />
+    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 43m 27s.xml">
+      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unittestUserDirectory_TestUserHandler_test_searchByUser - 2019.02.12 at 22h 43m 57s.xml">
+      <configuration name="Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 44m 40s.xml">
+      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unittestUserDirectory_TestUserHandler_test_searchByUser_AddedInList - 2019.02.12 at 23h 48m 02s.xml">
+      <configuration name="Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unittestUserDirectory - 2019.02.12 at 23h 48m 08s.xml">
+      <configuration name="Unittests for unittestUserDirectory" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -232,41 +389,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.24973656" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="3" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32936078" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -283,10 +439,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/L2/myPowerList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2/User.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1/Exercise9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" lean-forward="true" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/DecimalToRoman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/unittestRomanNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/L4/unittestStatistics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        <state relative-caret-position="557">
+          <caret line="70" column="32" selection-end-line="93" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/User.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/myPowerList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/test_users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/UserHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="27" column="21" selection-start-line="27" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2/UserHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="42" selection-start-line="42" selection-end-line="58" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/unittestUserDirectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
