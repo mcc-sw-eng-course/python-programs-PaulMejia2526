@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150abf12-1d33-43d8-a595-5623d3876136" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/L4/unittestUserDirectory.py" beforeDir="false" afterPath="$PROJECT_DIR$/L4/unittestUserDirectory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/unittestReadfromTXT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-programs-INataly.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-programs-INataly.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L4/.idea/L4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L4/.idea/L4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/.idea/L5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L5/.idea/L5.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,13 +15,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python-programs-INataly" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L4/unittestStatistics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="70" column="32" selection-end-line="93" selection-end-column="19" />
+            <state relative-caret-position="570">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -24,37 +32,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L4/unittestUserDirectory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="642">
+              <caret line="68" column="19" selection-start-line="67" selection-end-line="68" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L4/unittestRomanNumbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="51" selection-start-line="51" selection-end-line="52" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L2/UserHandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="42" selection-start-line="42" selection-end-line="58" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,15 +54,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L4/UserHandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="21" selection-start-line="27" selection-end-line="28" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/L4/userRecords_write.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -91,10 +68,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L4/unittestRomanNumbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L4/UserHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="21" selection-start-line="27" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L4/unittestReadfromTXT.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L4/myPowerList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L4/myStatistics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
@@ -131,11 +153,13 @@
         <option value="$PROJECT_DIR$/L4/test_users.txt" />
         <option value="$PROJECT_DIR$/L4/myPowerList.py" />
         <option value="$PROJECT_DIR$/L4/unittestUserDirectory.py" />
+        <option value="$PROJECT_DIR$/L4/unittestReadfromTXT.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1562" />
+    <option name="y" value="74" />
     <option name="width" value="1440" />
     <option name="height" value="794" />
   </component>
@@ -144,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,41 +179,17 @@
             <path>
               <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
-              <item name="L1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
-              <item name="L2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
               <item name="L4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
-              <item name="L4" type="462c0819:PsiDirectoryNode" />
-              <item name="Actividad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
-              <item name="L4" type="462c0819:PsiDirectoryNode" />
-              <item name="Actividad" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -217,23 +218,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for unittestUserDirectory">
-    <configuration name="unittestRomanNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in unittestReadfromTXT.py">
+    <configuration name="myPowerList" type="PythonConfigurationType" factoryName="Python" temporary="true" show_console_on_std_err="true" show_console_on_std_out="true">
+      <output_file is_save="true" />
       <module name="L4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/L4/unittestRomanNumbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/L4/myPowerList.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -302,7 +304,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in unittestRomanNumbers.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in unittestReadfromTXT.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="L4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,7 +314,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/L4/unittestRomanNumbers.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/L4/unittestReadfromTXT.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -330,13 +332,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.unittestStatistics" />
+      <item itemvalue="Python.myPowerList" />
+      <item itemvalue="Python tests.Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser" />
+      <item itemvalue="Python tests.Unittests for unittestUserDirectory" />
+      <item itemvalue="Python tests.Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList" />
+      <item itemvalue="Python tests.Unittests in unittestUserDirectory.py" />
+      <item itemvalue="Python tests.Unittests in unittestReadfromTXT.py" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in unittestReadfromTXT.py" />
+        <item itemvalue="Python.myPowerList" />
         <item itemvalue="Python tests.Unittests for unittestUserDirectory" />
         <item itemvalue="Python tests.Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList" />
         <item itemvalue="Python tests.Unittests in unittestUserDirectory.py" />
-        <item itemvalue="Python.unittestRomanNumbers" />
-        <item itemvalue="Python tests.Unittests in unittestRomanNumbers.py" />
       </list>
     </recent_temporary>
   </component>
@@ -354,18 +365,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 41m 05s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 41m 49s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 41m 54s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 42m 50s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 43m 17s.xml">
       <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
     </history-entry>
@@ -384,8 +383,20 @@
     <history-entry file="Unittests_for_unittestUserDirectory - 2019.02.12 at 23h 48m 08s.xml">
       <configuration name="Unittests for unittestUserDirectory" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_unittestReadfromTXT_py - 2019.02.14 at 04h 41m 04s.xml">
+      <configuration name="Unittests in unittestReadfromTXT.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittestReadfromTXT_py - 2019.02.14 at 04h 41m 20s.xml">
+      <configuration name="Unittests in unittestReadfromTXT.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittestReadfromTXT_py - 2019.02.14 at 04h 42m 06s.xml">
+      <configuration name="Unittests in unittestReadfromTXT.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unittestReadfromTXT_py - 2019.02.14 at 04h 42m 17s.xml">
+      <configuration name="Unittests in unittestReadfromTXT.py" configurationId="tests" />
+    </history-entry>
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -395,59 +406,53 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="794" extended-state="6" />
-    <editor active="true" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19116081" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32960597" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.22871287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32871288" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32871288" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.22871287" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32871288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19116081" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32960597" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.22871287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32871288" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32871288" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.22871287" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32871288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/L5/Actividad/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L4/myStatistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/L2/myPowerList.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -479,37 +484,10 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/decoder.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py" />
-    <entry file="file://$PROJECT_DIR$/L4/unittestStatistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="70" column="32" selection-end-line="93" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L2/UserHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="630">
           <caret line="42" selection-start-line="42" selection-end-line="58" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L4/test_users.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L4/UserHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="21" selection-start-line="27" selection-end-line="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -523,17 +501,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L4/myPowerList.py">
+    <entry file="file://$PROJECT_DIR$/L4/userRecords_write.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/test_users.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="30">
+          <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L4/unittestRomanNumbers.py">
+    <entry file="file://$PROJECT_DIR$/L4/myStatistics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="51" selection-start-line="51" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="612">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/myPowerList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/unittestStatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -542,8 +537,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L4/unittestUserDirectory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="642">
+          <caret line="68" column="19" selection-start-line="67" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/unittestRomanNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/UserHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="21" selection-start-line="27" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/unittestReadfromTXT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
