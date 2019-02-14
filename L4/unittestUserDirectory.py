@@ -46,6 +46,24 @@ class TestUserHandler(unittest.TestCase):
             self.assertEqual(phone, "4491123908")
             self.assertEqual(email, "diana.karen@gmail.com")
 
+    def test_removeUser(self):
+        userHandler = UserHandler.UserListHandler()
+        userData = {
+            "Name": "Ana Lopez",
+            "Address": "Av.Madeiras 197, Int.86",
+            "Phone": "3352525343",
+            "Email": "1234321@itesm.mx"
+        }
+        user2Data = {
+            "Name": "Maria Gonzalez",
+            "Address": "Calle Jaque #210",
+            "Phone": "4491123908",
+            "Email": "diana.karen@gmail.com"
+        }
+
+        userHandler.createNewUserRecord(userData)
+        userHandler.createNewUserRecord(user2Data)
+
 
 if __name__ == '__main__':
     unittest.main()
