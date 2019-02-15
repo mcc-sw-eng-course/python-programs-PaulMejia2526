@@ -3,26 +3,6 @@ class myPowerList:
     def __init__(self):
         self.myList = list()
 
-    def remove (self, n):
-        if n >= 0 and n < len(self.myList):
-            self.myLismyPowerListt = self.myList[:n] + self.myList[n+1:]
-
-    def add(self, item):
-        self.myList.append(item)
-
-    def sort(self):
-        return
-
-    def Lmerge(self, newList):
-        self.myList = newList +  self.myList
-
-    def Rmerge(self, newList):
-        self.myList = self.myList + newList
-
-    def saveToText(self, filePath):
-        file = open(filePath, "w")
-        for item in self.myList:
-            file.write(str(item) + "\n")
 
     def readFromTextFile(self, filePath):
         file = open(filePath, "r") # read from file
