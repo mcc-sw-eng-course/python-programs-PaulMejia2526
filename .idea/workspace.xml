@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150abf12-1d33-43d8-a595-5623d3876136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/L4/lista.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L4/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/L4/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L4/myPowerList.py" beforeDir="false" afterPath="$PROJECT_DIR$/L4/myPowerList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L4/unittestReadfromTXT.py" beforeDir="false" afterPath="$PROJECT_DIR$/L4/unittestReadfromTXT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L4/Captura de pantalla 2019-02-14 a la(s) 5.02.10.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -427,7 +423,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="794" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="794" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
