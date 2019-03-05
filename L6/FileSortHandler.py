@@ -15,7 +15,9 @@ class FileSortHandler:
             self.file = FileSortHandler.load_file(file_path_name)                                                       #abrir el archivo usando FileSortHandler.load_file,
             if self.file != None:                                                                                       #CustomException.InputFileNotFoundError, si no, sigue con el proceso,
                 numberList = list()                                                                                     #creamos numberList que es una lista temporal
-                fileLines = self.file.readlines()                                                                       #leer las lineas del archivo
+                fileLines = self.file.readlines()
+                self.file.close()
+                #leer las lineas del archivo
                 if(len(fileLines) > 0):
                     for line in fileLines:                                                                              #recorrer las lineas del archivo
                         if(len(line) > 0):
@@ -26,7 +28,7 @@ class FileSortHandler:
                                     if (numeric_value != None):
                                         numberList.append(numeric_value)                                                #si es diferente de None significa que no hubo errores mientras se convertia a numero, lo agregamos a la lista temporal
                                     else:
-                                        raise CustomException.FileInvalidInputError                                     #si hubo error mientras se convertia, lanzamos excepcion  CustomException.FileInvalidInputError
+                                        raise CustomException.FileInvalidInputError
                                 else:
                                     raise CustomException.FileInvalidInputError                                         #si hubo error mientras se convertia, lanzamos excepcion  CustomException.FileInvalidInputError
 
@@ -35,7 +37,7 @@ class FileSortHandler:
                     raise CustomException.NoInputDataError                                                              #si no hay lineas en el archivo, lanzamos excepcion  CustomException.NoInputDataError
 
             else:
-                raise CustomException.InputFileNotFoundError                                                            #si load_file devuelve None, entonces lanza excepcion
+                raise CustomException.InputFileNotFoundError
         else:
             raise CustomException.FileInvalidParameterError("set_input_data")                                           #si el typo de parametro no es del tipo esperado, entonces lanza excepcion CustomException.FileInvalidParameterError
         return self.numbersList

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150abf12-1d33-43d8-a595-5623d3876136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/L6/CustomException.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/FileSortHandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/FileSortMain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/my_numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/my_numbers_fail.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/my_numbers_fail_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/my_numbers_fail_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/unittestFileSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L4/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/L4/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L6/FileSortHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/L6/FileSortHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L6/my_numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/L6/my_numbers.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L6/FileSortHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="107" column="51" selection-start-line="107" selection-start-column="51" selection-end-line="107" selection-end-column="51" />
+            <state relative-caret-position="123">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -31,20 +31,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L6/FileSortMain.py">
+        <entry file="file://$PROJECT_DIR$/L6/my_numbers_fail_4.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L6/my_numbers.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L6/my_numbers_fail.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -59,8 +69,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L6/CustomException.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="92" selection-start-column="92" selection-end-column="92" />
+            <state relative-caret-position="343">
+              <caret line="40" column="51" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L6/unittestFileSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L6/my_numbers_fail_2.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L4/unittestUserDirectory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +126,11 @@
       <find>file_random_input_generator</find>
       <find>\</find>
       <find>FileInvalidParameterError</find>
+      <find>assert</find>
+      <find>getMean</find>
+      <find>FileInvalidInputError</find>
+      <find>convert_float</find>
+      <find>close</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\inalonso\Desktop\ITESM\2do semestre\Analisis y diseno software\python-programs-INataly</dir>
@@ -108,10 +152,14 @@
         <option value="$PROJECT_DIR$/L4/unittestUserDirectory.py" />
         <option value="$PROJECT_DIR$/L4/UserHandler.py" />
         <option value="$PROJECT_DIR$/L6/FileHandler.py" />
-        <option value="$PROJECT_DIR$/L6/my_numbers.txt" />
         <option value="$PROJECT_DIR$/L6/FileSortMain.py" />
         <option value="$PROJECT_DIR$/L6/CustomException.py" />
+        <option value="$PROJECT_DIR$/L6/my_numbers_fail.txt" />
+        <option value="$PROJECT_DIR$/L6/my_numbers.txt" />
+        <option value="$PROJECT_DIR$/L6/my_numbers_fail_2.txt.py" />
         <option value="$PROJECT_DIR$/L6/FileSortHandler.py" />
+        <option value="$PROJECT_DIR$/L6/my_numbers_fail_4.txt" />
+        <option value="$PROJECT_DIR$/L6/unittestFileSort.py" />
       </list>
     </option>
   </component>
@@ -125,7 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,17 +183,12 @@
             <path>
               <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
-              <item name="L1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
-              <item name="L2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
               <item name="L4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-programs-INataly" type="462c0819:PsiDirectoryNode" />
+              <item name="L5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python-programs-INataly" type="b2602c69:ProjectViewProjectNode" />
@@ -157,6 +199,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,56 +233,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FileSortMain">
-    <configuration name="FileSortHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-programs-INataly" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/L6/FileSortHandler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FileSortMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-programs-INataly" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/L6/FileSortMain.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for unittestFileSort">
     <configuration name="unittestStatistics" type="PythonConfigurationType" factoryName="Python">
       <module name="L4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -254,17 +252,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unittestUserDirectory" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="L4" />
+    <configuration name="Unittests for unittestFileSort" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-programs-INataly" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestUserDirectory&quot;" />
+      <option name="_new_target" value="&quot;unittestFileSort&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_FileInvalidInputError" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-programs-INataly" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittestFileSort.TestSortHandler.test_set_input_data_failed_FileInvalidInputError&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_FileInvalidParameterError" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-programs-INataly" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittestFileSort.TestSortHandler.test_set_input_data_failed_FileInvalidParameterError&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_InputFileNotFoundError" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-programs-INataly" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittestFileSort.TestSortHandler.test_set_input_data_failed_InputFileNotFoundError&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_NoInputDataError" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-programs-INataly" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittestFileSort.TestSortHandler.test_set_input_data_failed_NoInputDataError&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -282,41 +336,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="L4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in unittestUserDirectory.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="L4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/L4/unittestUserDirectory.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FileSortMain" />
-        <item itemvalue="Python.FileSortHandler" />
-        <item itemvalue="Python tests.Unittests for unittestUserDirectory" />
-        <item itemvalue="Python tests.Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList" />
-        <item itemvalue="Python tests.Unittests in unittestUserDirectory.py" />
+        <item itemvalue="Python tests.Unittests for unittestFileSort" />
+        <item itemvalue="Python tests.Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_NoInputDataError" />
+        <item itemvalue="Python tests.Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_InputFileNotFoundError" />
+        <item itemvalue="Python tests.Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_FileInvalidParameterError" />
+        <item itemvalue="Python tests.Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_FileInvalidInputError" />
       </list>
     </recent_temporary>
   </component>
@@ -334,35 +360,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 41m 05s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort - 2019.03.04 at 21h 44m 14s.xml">
+      <configuration name="Unittests for unittestFileSort" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 41m 49s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort_TestSortHandler_test_set_input_data_failed_InputFileNotFoundError - 2019.03.04 at 21h 46m 27s.xml">
+      <configuration name="Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_InputFileNotFoundError" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 41m 54s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort - 2019.03.04 at 21h 46m 30s.xml">
+      <configuration name="Unittests for unittestFileSort" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 42m 50s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort_TestSortHandler_test_set_input_data_failed_NoInputDataError - 2019.03.04 at 21h 46m 58s.xml">
+      <configuration name="Unittests for unittestFileSort.TestSortHandler.test_set_input_data_failed_NoInputDataError" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 43m 17s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort - 2019.03.04 at 21h 47m 01s.xml">
+      <configuration name="Unittests for unittestFileSort" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 43m 27s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort - 2019.03.04 at 21h 47m 41s.xml">
+      <configuration name="Unittests for unittestFileSort" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestUserDirectory_TestUserHandler_test_searchByUser - 2019.02.12 at 22h 43m 57s.xml">
-      <configuration name="Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort - 2019.03.04 at 21h 48m 23s.xml">
+      <configuration name="Unittests for unittestFileSort" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unittestUserDirectory_py - 2019.02.12 at 22h 44m 40s.xml">
-      <configuration name="Unittests in unittestUserDirectory.py" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort - 2019.03.04 at 21h 49m 40s.xml">
+      <configuration name="Unittests for unittestFileSort" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestUserDirectory_TestUserHandler_test_searchByUser_AddedInList - 2019.02.12 at 23h 48m 02s.xml">
-      <configuration name="Unittests for unittestUserDirectory.TestUserHandler.test_searchByUser_AddedInList" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort - 2019.03.04 at 21h 52m 57s.xml">
+      <configuration name="Unittests for unittestFileSort" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestUserDirectory - 2019.02.12 at 23h 48m 08s.xml">
-      <configuration name="Unittests for unittestUserDirectory" configurationId="tests" />
+    <history-entry file="Unittests_for_unittestFileSort - 2019.03.04 at 21h 53m 15s.xml">
+      <configuration name="Unittests for unittestFileSort" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -376,20 +402,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.12012645" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.12012645" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4626219" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -420,22 +445,31 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/L6/FileSortHandler.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/L6/FileSortMain.py</url>
           <line>4</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/L6/FileSortHandler.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="10" />
+          <line>39</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="context.exception" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>context.exception</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/L5/Actividad/pyvenv.cfg">
@@ -476,13 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="614" selection-start-line="614" selection-end-line="614" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L4/unittestUserDirectory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -531,16 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L4/unittestStatistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="70" column="32" selection-end-line="93" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L2/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -558,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L4/myStatistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L1/Exercise1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -575,8 +585,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/L4/myStatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/L6/my_numbers.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/unittestStatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L4/unittestUserDirectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L6/CustomException.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L6/FileSortHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L6/my_numbers_fail.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/L6/my_numbers_output.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,32 +650,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L6/CustomException.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="92" selection-start-column="92" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L6/FileSortMain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L6/FileSortHandler.py">
+    <entry file="file://$PROJECT_DIR$/L6/my_numbers_fail_4.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="107" column="51" selection-start-line="107" selection-start-column="51" selection-end-line="107" selection-end-column="51" />
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L6/unittestFileSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L6/my_numbers_fail_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
