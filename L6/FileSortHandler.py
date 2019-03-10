@@ -1,13 +1,21 @@
 import CustomException
 import os
 import random
+import time
 
 class FileSortHandler:
+
+    MERGE_SORT = "merge_sort"
+    QUICK_SORT = "quick_sort"
+    HEAP_SORT = "heap_sort"
 
     def __init__(self):
         self.file = None                                                                                                #se inicializa la variable file y lista como vacias cuando se crea el objeto
         self.numbersList = list()
-
+        self.performance_data = {"number_of_records" : 0,
+                                 "time_consumed" : 0,
+                                 "start_time" : 0,
+                                 "end_time" : 0}
     def set_input_data(self, file_path_name):                                                                           #el metodo set_input_data(file_path_name): recibe un parametro tipo string donde se especifica la ruta del archivo a leer
                                                                                                                         #si no ocurre ningun error, devuelve una lista de numeros que sera la que se va a utilizar al momento de ordenar
         if (type(file_path_name) == str):
@@ -59,15 +67,15 @@ class FileSortHandler:
         else:
             raise CustomException.FileInvalidParameterError("set_output_data")                                          #si el parametro no es tipo str lanza excepcion CustomException.FileInvalidParameterError
 
-    def mergeSort(alist):                                                                                               #funcion que recibe una lista e implementa un algoritmo de ordenamiento merge sort (obtenido de internet)
+    def execute_merge_sort(alist):                                                                                               #funcion que recibe una lista e implementa un algoritmo de ordenamiento merge sort (obtenido de internet)
 
         if len(alist) > 1:
             mid = len(alist) // 2
             lefthalf = alist[:mid]
             righthalf = alist[mid:]
 
-            FileSortHandler.mergeSort(lefthalf)
-            FileSortHandler.mergeSort(righthalf)
+            FileSortHandler.execute_merge_sort(lefthalf)
+            FileSortHandler.execute_merge_sort(righthalf)
 
             i = 0
             j = 0
@@ -91,12 +99,70 @@ class FileSortHandler:
                 j = j + 1
                 k = k + 1
 
-    def execute_merge_sort(self):                                                                                       #funcion que llama al algortimo de ordenamiento y envia como parametro la lista de la clase  self.numbersList
+
+    def partition(arr,low,high):
+        i = ( low-1 )
+        pivot = arr[high]
+        for j in range(low , high):
+            if arr[j] <= pivot:
+                i = i+1
+                arr[i],arr[j] = arr[j],arr[i]
+        arr[i+1],arr[high] = arr[high],arr[i+1]
+        return ( i+1 )
+
+    def execute_quick_sort(arr, low, high):
+        if low < high:
+            pi = FileSortHandler.partition(arr, low, high)
+            FileSortHandler.execute_quick_sort(arr, low, pi - 1)
+            FileSortHandler.execute_quick_sort(arr, pi + 1, high)
+
+    def heapify(arr, n, i):
+        largest = i
+        l = 2 * i + 1
+        r = 2 * i + 2
+        if l < n and arr[i] < arr[l]:
+            largest = l
+        if r < n and arr[largest] < arr[r]:
+            largest = r
+        if largest != i:
+            arr[i], arr[largest] = arr[largest], arr[i]  # swap
+            FileSortHandler.heapify(arr, n, largest)
+
+    def execute_quick_sort(arr, low, high):
+        if low < high:
+            pi = FileSortHandler.partition(arr, low, high)
+            FileSortHandler.execute_quick_sort(arr, low, pi - 1)
+            FileSortHandler.execute_quick_sort(arr, pi + 1, high)
+
+    def execute_heap_sort(arr):
+        n = len(arr)
+        for i in range(n, -1, -1):
+            FileSortHandler.heapify(arr, n, i)
+        for i in range(n - 1, 0, -1):
+            arr[i], arr[0] = arr[0], arr[i]  # swap
+            FileSortHandler.heapify(arr, i, 0)
+
+    def execute_sort (self, algorithm):
+        #funcion que llama al algortimo de ordenamiento y envia como parametro la lista de la clase  self.numbersList
         if(len(self.numbersList) > 0):
-            FileSortHandler.mergeSort(self.numbersList)
+            start_time = time.perf_counter()
+            if algorithm == FileSortHandler.MERGE_SORT:
+                FileSortHandler.execute_merge_sort(self.numbersList)
+            elif algorithm == FileSortHandler.QUICK_SORT:
+                FileSortHandler.execute_quick_sort(self.numbersList, 0, len(self.numbersList) - 1)
+            elif algorithm == FileSortHandler.HEAP_SORT:
+                FileSortHandler.execute_heap_sort(self.numbersList)
+            end_time = time.perf_counter()
+            self.performance_data["start_time"] = start_time
+            self.performance_data["end_time"] = end_time
+            self.performance_data["time_consumed"] =  end_time  -  start_time
+            self.performance_data["number_of_records"] = len(self.numbersList)
 
         else:
             raise CustomException.NoInputDataError
+
+    def get_performance_data(self):
+        return self.performance_data
 
     def file_random_input_generator(self, file_path_name, nSize):                                                       #funcion que genera un archivo con numeros random, recibe como parametros la ruta del archivo y el numero de numeros a generar
         myFile = FileSortHandler.create_file(file_path_name)
