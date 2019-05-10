@@ -1,5 +1,5 @@
-# python-programs-INataly
-python-programs-INataly created by GitHub Classroom
+# python-programs-PaulMejia2526
+python-programs-PaulMejia2526 created by GitHub Classroom
 
 Team: Irma Nataly Alonso de Leon
 Paul Eduardo Mejia
